@@ -1,37 +1,11 @@
-## Sean Smith
+## Welcome
+Hi, I'm Sean Smith and I'm a data scientist/AI enthusiast. My primary interests are in NLP and Finance. I have experience working on interdisciplinary teams to leverage machine learning and data analytics to help get results from data. Here is some of my work:
 
-You can use the [editor on GitHub](https://github.com/sms1097/sms1097.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### [Formality Transfer](https://github.com/sms1097/formality-transfer)
+Formality transfer is a problem where we attempt to render informal sequences as formal rewrites. It's tackled as a supervised Seq2Seq problem and borrows techniches from machine translation. My project focused on finding solutions to the problem that were statistically signficantly better than baseline models. The baseline models I used were RNNs with Bahdanau Attention and Transformers. From there I implemented a number of techniques to augment the data set and was able to show most of the models implemented proved better results. Check out that project for a more formal discussion of my work. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### [Gym Chatbot](https://github.com/sms1097/Business-Chatbot)
+This project trained a chatbot based on FAQs from a local gym to be able to interface with customers. I approached the problem as a topic identification problem and had the network classify intents from customers, then the bot responds with one of the appropriate responses available. I also identified a few ideas I have for expanding that work in the future, however the data for those ideas is not readily available and I'm still hashing out how I could collect it. 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sms1097/sms1097.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### [Tree Salviging Strategies for Budworm](https://github.com/sms1097/Carbon-Emissions-Budworm)
+This is still a work in progress, but the goal here is to identify when land owners should be given vouchers to not salvage trees. Vouchers would be given to land owners if leaving the trees on the land would prevent carbon emissions compared to salviging the tree. This started off as an interpretable ML project using SkopeRules, but the data is too complex that I've recently transfered to training uninterpretable models. 
