@@ -1,8 +1,11 @@
 ## Welcome
-Hi, I'm Sean Smith and I'm a data scientist/AI enthusiast. My primary interests are in NLP and Finance. I have experience working on interdisciplinary teams to leverage machine learning and data analytics to help get results from data. Here is some of my work:
+ My primary interests are in applications and implementations of Machine Learning. I have experience working on interdisciplinary teams to leverage machine learning and data analytics to help get results from data. Here is some of my work:
 
 ### [Formality Transfer](https://github.com/sms1097/formality-transfer)
 Formality transfer is a problem where we attempt to render informal sequences as formal rewrites. It's tackled as a supervised Seq2Seq problem and borrows techniches from machine translation. My project focused on finding solutions to the problem that were statistically signficantly better than baseline models. The baseline models I used were RNNs with Bahdanau Attention and Transformers. From there I implemented a number of techniques to augment the data set and was able to show most of the models implemented proved better results. Check out that project for a more formal discussion of my work. 
+
+### [SLIPPER and ERL(soon)](https://github.com/sms1097/ERL)
+Right now I'm working on a more robust approach to the tree salvaging strategies for budworm (see below.) I've implemented a boosted rule learner known as SLIPPER and right now am working to wrap it in the MILP from Exact Rule Learning via Boolean Compressed Sensing.  
 
 ### [Tree Salviging Strategies for Budworm](https://github.com/sms1097/Carbon-Emissions-Budworm)
 This is still a work in progress, but the goal here is to identify when land owners should be given vouchers to not salvage trees. Vouchers would be given to land owners if leaving the trees on the land would prevent carbon emissions compared to salviging the tree. Right now I have a salvage strategy within 0.01% of the optimal salvaging strategy using random forests. I'm working on improving the precision of the classifier and finding interpretable classifiers as well. 
