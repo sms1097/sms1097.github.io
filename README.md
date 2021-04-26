@@ -4,8 +4,8 @@
 ### [Formality Transfer](https://github.com/sms1097/formality-transfer)
 Formality transfer is a problem where we attempt to render informal sequences as formal rewrites. It's tackled as a supervised Seq2Seq problem and borrows techniches from machine translation. My project focused on finding solutions to the problem that were statistically signficantly better than baseline models. The baseline models I used were RNNs with Bahdanau Attention and Transformers. From there I implemented a number of techniques to augment the data set and was able to show most of the models implemented proved better results. Check out that project for a more formal discussion of my work. 
 
-### [SLIPPER and ERL(soon)](https://github.com/sms1097/ERL)
-Right now I'm working on a more robust approach to the tree salvaging strategies for budworm (see below.) I've implemented a boosted rule learner known as SLIPPER and right now am working to wrap it in the MILP from Exact Rule Learning via Boolean Compressed Sensing.  
+### [SLIPPER and ERL](https://github.com/sms1097/ERL)
+Right now I'm working on a more robust approach to the tree salvaging strategies for budworm (see below.) I've implemented a boosted rule learner known as SLIPPER that greedily builds rules for committee voting. I also have an implementation of ERL that builds sparese rules from a MILP. I'm working on expanding both of these now to have a loss function that not only solves binary classification, but also optimizes a free parameter, in this case prioritize optimal emissions while also solving the binary classification problem. 
 
 ### [Tree Salviging Strategies for Budworm](https://github.com/sms1097/Carbon-Emissions-Budworm)
 This is still a work in progress, but the goal here is to identify when land owners should be given vouchers to not salvage trees. Vouchers would be given to land owners if leaving the trees on the land would prevent carbon emissions compared to salviging the tree. Right now I have a salvage strategy within 0.01% of the optimal salvaging strategy using random forests. I'm working on improving the precision of the classifier and finding interpretable classifiers as well. 
